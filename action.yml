@@ -1,0 +1,18 @@
+name: Sound//Infra Publish Action
+description: Deploys your GitHub repository to your domain Powered by Sound//Infra.
+inputs:
+  publishDomain:
+    description: 'Your domain that is Powered by Sound//Infra.'
+    required: true
+  publishDirectory:
+    description: 'The contents of this directory will be published to your domain.'
+    required: false
+    default: 'public'
+branding:
+  icon: 'anchor'
+  color: 'blue'
+
+runs:
+  using: 'node12'
+  main: 'index.js'
+

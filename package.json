@@ -1,0 +1,21 @@
+{
+  "name": "soundinfra-gh-action",
+  "version": "0.1.0",
+  "description": "Simply do a `git push` to automatically update your Sound//Infra site.",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.3.0",
+    "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:soundinfra/soundinfra-gh-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
